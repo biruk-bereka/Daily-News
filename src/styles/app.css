@@ -27,3 +27,62 @@ nav {
   font-size: 40px;
   color: rgb(73 73 73);
 }
+
+/*////////////////////////////////////
+            MASONRY CSS
+/////////////////////////////////////*/
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+}
+
+.my-masonry-grid .content { 
+  padding:15px;
+  background: white;
+  border: 1px solid #dbdbdb;
+}
+.my-masonry-grid .content .title { 
+  border-bottom: 1px solid #ececec;
+  font-size: 23px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.my-masonry-grid .content .excerpt {
+  font-weight: 100;
+}
+
+.my-masonry-grid .author {
+  padding: 5px 10px;
+  font-size: 12px;
+  background: #dcdcdc;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column > div {
+    margin-bottom: 15px; /* space between items */
+  }
+}
+
