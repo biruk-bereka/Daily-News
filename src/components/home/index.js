@@ -1,8 +1,8 @@
-
+import HomePosts from "./homePosts";
 const Home = () => {
     return (
         <>
-          Home
+          <HomePosts />
         </>
     )
 }
