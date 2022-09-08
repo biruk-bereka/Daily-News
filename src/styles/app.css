@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.yellotail {
+    font-family: 'Yellowtail', cursive;
+}
+
+nav { 
+    border-bottom: 3px solid #6c6c6c;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.nav {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.nav .nav-link {
+  color:#d63384;;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color: rgb(73 73 73);
+}
