@@ -17,8 +17,13 @@ const HomePosts = () => {
             dispatch(fetchPosts({page:1,order:"desc",limit:6}));
         }
     },[])
+const loadMorePosts = () => {
+    const page = homePosts.articles.page + 1;
+    dispatch(fetchPosts({page, order:'desc',limit:6}))
+}
 
     return (
+        <>
         <Masonry
             breakpointCols={{default:3, 800:2, 400:1}}
             className="my-masonry-grid"
@@ -48,6 +53,21 @@ const HomePosts = () => {
               ))
             :null}
         </Masonry>
+        { homePosts.loading ? 
+          <div style={{textAlign:'center'}}>
+              <Spinner animation="border" role="status">
+                  <span className="visually-hidden">Loading...</span>
+              </Spinner>
+          </div>   
+        :null}
+        { !homePosts.articles.end && !homePosts.loading ?
+          <Button variant="outline-dark" onClick={() => loadMorePosts()}>
+             Load more posts
+          </Button>
+        :null
+        }
+
+    </>
     )
 }
 
