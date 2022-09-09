@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/daily-news/static/css/main.7a4cd738.css",
+    "main.js": "/daily-news/static/js/main.5d05dd9b.js",
+    "index.html": "/daily-news/index.html",
+    "main.7a4cd738.css.map": "/daily-news/static/css/main.7a4cd738.css.map",
+    "main.5d05dd9b.js.map": "/daily-news/static/js/main.5d05dd9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a4cd738.css",
+    "static/js/main.5d05dd9b.js"
+  ]
+}
