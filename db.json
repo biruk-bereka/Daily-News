@@ -219,5 +219,20 @@
       "id": 4
     }
   ],
-  "contact": []
+  "contact": [
+    {
+      "email": "bbereka@yahoo.com",
+      "firstname": "BIRTUKAN",
+      "lastname": "ABOSE",
+      "message": "Hello!",
+      "id": 1
+    },
+    {
+      "email": "bbereka@yahoo.com",
+      "firstname": "BIRTUKAN",
+      "lastname": "ABOSE",
+      "message": "Way",
+      "id": 2
+    }
+  ]
 }
