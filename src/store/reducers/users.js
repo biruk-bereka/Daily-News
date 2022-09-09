@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { addToNewsletter } from "../utils/thunks";
+import { addToNewsletter, sendMessage } from "../utils/thunks";
 
 export const usersSlice = createSlice({
     name:'users',
