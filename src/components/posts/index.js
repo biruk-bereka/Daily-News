@@ -4,7 +4,10 @@ import { useSelector, useDispatch } from "react-redux";
 import Moment from 'react-moment';
 import { Spinner } from "react-bootstrap";
 
+import Newsletter from "../utils/newsletter";
+
 import { fetchPostById } from "../../store/utils/thunks";
+import { clearPostById } from "../../store/reducers/posts";
 
 const PostComponent = () => {
     const posts = useSelector((state)=> state.posts);
@@ -14,6 +17,12 @@ const PostComponent = () => {
 
     useEffect(()=>{
       dispatch(fetchPostById(params.id))
+    },[])
+
+    useEffect(()=>{
+      return()=>{
+         dispatch(clearPostById())
+      }
     },[])
 
     return (
@@ -46,7 +55,7 @@ const PostComponent = () => {
               </Spinner>
           </div>   
         :null}
-          
+        <Newsletter />
         </>
     )
 }
