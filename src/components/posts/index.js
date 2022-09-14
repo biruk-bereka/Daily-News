@@ -14,7 +14,6 @@ const PostComponent = () => {
     const dispatch = useDispatch();
     let params = useParams();
 
-
     useEffect(()=>{
       dispatch(fetchPostById(params.id))
     },[])
