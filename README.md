@@ -1,27 +1,23 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> Daily News
-  This project show a simple news website. In which a user can view different news, subscribe for more news and send message. 
+> "Daily News" is a react application. 
+  This project show a simple daily news website. In which a user can view different news, subscribe for more news and send message. 
 
 
 ## Built With
 
-- Major languages : HTM, CSS and Javascript
-- Frameworks : React , Redux, Bootstrap 
-- Technologies used : Git for version control, fake json server for fetching and posting data
+- React  
+- Redux 
+- Bootstrap 
+- Git for version control
+- Fake json server for fetching and posting data
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link]
-
+[Live Demo Link](https://daily-news-eta.vercel.app/) or (https://daily-news.onrender.com/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -30,16 +26,22 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 ### Download the file to local directory
-    if you have already install github in your local machine run: 
-    git clone https://github.com/biruk-bereka/Daily-News.git
+    - if you have already install github in your local machine run: 
     
-    Or download the zip file from the github directory.
+    ```sh
+    git clone https://github.com/biruk-bereka/Daily-News.git
+    ```
+    - Or download the zip file from the github directory.
 
 ### Run the project locally
 
-   npm install
-   npm start 
-   npm run jserv (on different shell)
+ ```sh
+npm install
+```
+
+```sh
+npm start
+```
 
 ## Authors
 
