@@ -22,20 +22,24 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-     - Visual Studio code or any Code Editor
+
+- Visual Studio code or any Code Editor
 
 ### Setup
+
 ### Download the file to local directory
-    - if you have already install github in your local machine run: 
+
+- if you have already install github in your local machine run: 
     
-    ```sh
-    git clone https://github.com/biruk-bereka/Daily-News.git
-    ```
-    - Or download the zip file from the github directory.
+```sh
+git clone https://github.com/biruk-bereka/Daily-News.git
+```
+
+- Or download the zip file from the github directory.
 
 ### Run the project locally
 
- ```sh
+```sh
 npm install
 ```
 
